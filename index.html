@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/logo1.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>BRAC Law </title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="images/icon/logo.png" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="subjects/ielts.html">Divorce</a></li>
+				<li><a href="subjects/team.html">Team</a></li>
+				<li><a href="#services_section">PRACTICE AREAS</a></li>
+				<li><a href="subjects/ielts Eng.html">Premium</a></li>
+				<li><a href="subjects/Gallery.html">Awards</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="logout.php">Log out</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+	</div>
+	<div class="side-menu" id="side-menu">
+		<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+		<div class="user">
+			<img src="images/icon/logo.png" alt="BRAC Law ">
+			<p>BRAC Law </p>
+		</div>
+		<ul>
+			<li><a class="active" href="">Home</a></li>
+				<li><a href="subjects/ielts.html">IELTS</a></li>
+				<li><a href="#portfolio_section">Portfolio</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">PRACTICE AREAS</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+		</ul>
+	</div>
+		<!-- Sliding Information -->
+	<marquee style="background: linear-gradient(to right, #FA4B37, #DF2771); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="12"><div class="marqu">“সেবা সমূহ: নারী ও শিশু নির্যাতন সংক্রান্ত, লিগ্যাল নোটিশ, পারিবারিক আইন, তালাক সংক্রান্ত, কাস্টডি ও গার্ডিয়ানশিপ দাবি, জামিন, চুক্তি আইন, দেওয়ানি মোকদ্দমা, জমি জমা সংক্রান্ত, ফৌজদারী মামলা, সাংবিধানিক অধিকার সংক্রান্ত রিট এর মোশন ও শুনানী, আপিল, রিভিউ, রিভিশন, কোম্পানি ও ব্যবসা নিবন্ধন, লাইসেন্সিং, ট্রেডমার্ক, ডিজাইন, শ্রম আইন ও অধিকার, মানবাধিকার ইস্যু, ব্যাংকিং ও ফাইন্যান্সিয়াল ম্যাটার ইত্যাদি বিষয়ে বিশেষজ্ঞ আইনজীবী পরামর্শ প্রদান করেন। ফোন - ল্যান্ডলাইন - ০২৮৪১০১৩৪ (অফিস চলাকালীন); ০১৭১৪৪০৪০৫০ (ফোন ও হোয়াটস্যাপ); ০১৭০৭২৪১৬১১ (ফিমেল/মহিলা ডেস্ক)”</div></marquee>	
+	<marquee style="background: linear-gradient(to right, #FA4B37, #DF2771); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="12"><div class="marqu">“সেবা সমূহ: নারী ও শিশু নির্যাতন সংক্রান্ত, লিগ্যাল নোটিশ, পারিবারিক আইন, তালাক সংক্রান্ত, কাস্টডি ও গার্ডিয়ানশিপ দাবি, জামিন, চুক্তি আইন, দেওয়ানি মোকদ্দমা, জমি জমা সংক্রান্ত, ফৌজদারী মামলা, সাংবিধানিক অধিকার সংক্রান্ত রিট এর মোশন ও শুনানী, আপিল, রিভিউ, রিভিশন, কোম্পানি ও ব্যবসা নিবন্ধন, লাইসেন্সিং, ট্রেডমার্ক, ডিজাইন, শ্রম আইন ও অধিকার, মানবাধিকার ইস্যু, ব্যাংকিং ও ফাইন্যান্সিয়াল ম্যাটার ইত্যাদি বিষয়ে বিশেষজ্ঞ আইনজীবী পরামর্শ প্রদান করেন। ফোন - ল্যান্ডলাইন - ০২৮৪১০১৩৪ (অফিস চলাকালীন); ০১৭১৪৪০৪০৫০ (ফোন ও হোয়াটস্যাপ); ০১৭০৭২৪১৬১১ (ফিমেল/মহিলা ডেস্ক)”</div></marquee>	
+    <p>   </p>
+</header>
+<!-- Sliding Information -->
+	<div>
+	<div class="slideshow-container">
+
+			
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 3</div>
+			<img src="images/extra/000.png" style="width:100%">
+			<div class="text"></div>
+		  </div>
+			<div class="mySlides fade">
+			  <div class="numbertext">2 / 3</div>
+			  <img src="images/extra/Barrister Alam.png" style="width:100%">
+			  <div class="text"></div>
+			</div>
+			
+			
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 3</div>
+				<img src="images/extra/1122.png" style="width:100%">
+				<div class="text"></div>
+			  </div>
+			</div>
+			<br>
+			
+			<div style="text-align:center">
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			</div>
+			
+			<script>
+			let slideIndex = 0;
+			showSlides();
+			
+			function showSlides() {
+			  let i;
+			  let slides = document.getElementsByClassName("mySlides");
+			  let dots = document.getElementsByClassName("dot");
+			  for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			  }
+			  slideIndex++;
+			  if (slideIndex > slides.length) {slideIndex = 1}    
+			  for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			  setTimeout(showSlides, 4000); // Change image every 2 seconds
+			}
+			</script>
+	
+	</div>
+
+
+		<!--<div class="head-container">
+			<div class="quote">
+				<p>The beautiful thing about learning is that nobody can take it away from you</p>
+				<h5>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research!</h5>
+				<div class="play">
+					<img src="images/icon/play.png" alt="play"><span><a href="https://www.youtube.com/watch?v=KFyrgDO1WXk" target="_blank">Watch Now</a></span>
+				</div>
+			</div>
+			<div class="svg-image">
+				<img src="images/extra/svg1.jpg" alt="svg">
+			</div>-->
+		
+	
+
+
+<!-- Some Popular Subjects -->
+<div>
+	<div class="title">
+	
+		<center><p style="font-size: 50px; padding-top: 80px">Our Wings</p></center>
+	</div>
+	<br><br>
+	<div class="course">
+		<center><div class="cbox">
+		<div class="det"><a href="subjects/ielts.html"><img src="images/courses/book.png">Divorce Law</a></div>
+		<div class="det"><a href="https://www.facebook.com/bdlplaw"><img src="images/courses/d1.png">Corporate Law</a></div>
+		<div class="det"><a href="https://www.facebook.com/bdlplaw"><img src="images/courses/paper.png">Family Law</a></div>
+		
+		</div></center>
+		</div>
+
+
+<!-- ABOUT -->
+    <div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">About</p></center>
+		<div class="about-content">
+		    <div class="side-image">
+			   <img class="sideImage" src="images/extra/e3.png">
+		   </div>
+			<div class="side-text">
+				<h2>What you think about us ?</h2>
+				<p>A full service law firm in Dhaka that has been ranked & recognised internationally with specialisation in Commercial, Arbitration, Civil, Criminal, Family, Writ & High Court Matters. We are located in Baridhara DOHS near Gulshan, Dhaka which is a few miles away from the international airport in Dhaka, Bangladesh. Awarded Best Lawyer & Law Firm for Commercial Law, Family Law and also certified by Chartered Institute of Arbitrators, UK (CIArb). 
+
+					BDLP is one of the leading & best law firms in Dhaka, Bangladesh according to international rankings. The law firm is one of the top law firms in Dhaka and represents both foreign and local clients. The firm is ranked among the best law firms of our jurisdiction. In Legal500 2022 edn. BDLP is ranked as a Tier 2 Firm accross multiple practice areas, in International Financial Law Review IFLR1000 it is ranked among a handful of leading corporate & finance law firms and AsiaLaw ranked BDLP as a Notable Law Firm in 2021. Local directories have also consistently kept it in thier top law firm rankings. The firm is also featured in key international directories regularly. BDLP’s partners have also consistently been highly reviewed in client testimonials and recommended by ranking authorities. </div>
+	        </div>
+         </div>
+<!-- PORTFOLIO -->
+	<div class="diffSection" id="portfolio_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Solved cases of BRAC Law  Family</p></center>
+		<div class="content">
+			
+		</div>
+	</div>
+	<div class="extra">
+		<p>We're increasing this data every month</p>
+		<div class="smbox">
+		<span><center><div class="data">3920</div><div class="det">Divorce Law</div></center></span>
+		<span><center><div class="data">3862</div><div class="det">Corporate Law </div></center></span>
+		<span><center><div class="data">1633</div><div class="det">Family Law</div></center></span>
+		
+		</div>
+	</div>
+
+
+<!-- TEAM -->
+	<div class="diffSection" id="team_section">
+		<center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">The Founder</p></center>
+		<div class="totalcard">
+			<div class="card">
+				<center><img src="images/creator/11.jpg"></center>
+				<center><div class="card-title">Barrister Alam</div>
+				<div id="detail">
+					<p>“Advocate of Bangladesh Supreme Court “</p>
+					<div class="duty"></div>
+					<a href="https://www.facebook.com/profile.php?id=100061079247128" target="_blank"><button class="btn-roshan">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+			
+		</div>
+	</div>
+
+
+<!-- SERVICES -->
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">LEGAL PRACTICE AREAS</p></center>
+		</div>
+		<a href=""><div class="s-card"><p>HIGH COURT MATTERS</p></div></a>
+		<a href="subjects/ielts.html"><div class="s-card"><p>BANKING & FINANCE</p></div></a>
+		<a href=""><div class="s-card"><p>BUSINESS FORMATION</p></div></a>
+		<a href="subjects/ielts.html#sample_papers"><div class="s-card"><p>DIVORCE, CHILD CUSTODY & FAMILY LAW</p></div></a>
+		<a href=""><div class="s-card"><p>COMPANY & CORPORATE</p></div></a>
+		<a href="subjects/team ielts.html"><div class="s-card"><p>COMMERCIAL</p></div></a>
+		<a href="subjects/quiz.html"><div class="s-card"><p>TRADEMARKS, DESIGNS & IP</p></div></a>
+		<a href="#contactus_section"><div class="s-card"><p>FAMILY MATTERS</p></div></a>
+	</div>
+
+<!-- Reviews by Students -->
+<div id="makeitfull">
+	<a href="#review_section"><img src="images/icon/makeitfull.png"></a>
+</div>
+<div class="review">
+	<div class="diffSection" id="review_section">
+		<center><p style="font-size: 40px; padding: 100px; padding-bottom: 40px; color: #2E3D49;">What people Say About Us?</p></center>
+	</div>
+	<div class="rev-container">
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/human1.jpg"><p>Sumon Mondal</p>
+				<h6>Divorce</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					My   journey with BRAC Law    was very smooth , their   service    charge   are  reasonable &   very  excellent 👌
+ I would like to recommended   others also 
+ ###.  from Kolkata ###
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/human2.jpg"><p>Karnajit Bhowmik</p>
+				<h6>Family issue</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					f you are looking for a professional lawyer in dhaka then contact Barrister Alam. I had to wait a little while to meet him but he was very friendly and cordial, most importantly, I got the result i wanted in my matter.
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/dolon.jpg"><p>Shanzida Jahan Dolon</p>
+				<h6>leagal action</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					Most Supportive and fast Working lawfirm. Adv. Rafin Rahman is really smart with his own working ways so that you will get a solution as soon as possible.</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/neeshat.jpg"><p>Neeshat Tasneem Antara</p>
+				<h6>Divorce law</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					One of the Best Law Firm in Dhaka, Bangladesh. They have a Team of Highly Qualified and Experienced Barristers and Advocates. Specially Barrister Shajib Mahmood is a outstanding lawyer and very knowledgeable person. A Reliable Law Firm. Highly Recommended.</p>
+			</div>
+		</div>
+		
+	</div>
+	<div class="course">
+		<div class="cbox">
+		<div class="det"><a href="https://www.facebook.com/bdlplawhttps://www.facebook.com/bdlplaw">Click Here For More</a></div>
+		
+		
+		</div>
+	</div>
+</div>
+
+<!-- CONTACT US -->
+	<div class="diffSection" id="contactus_section">
+		<center><p style="font-size: 50px; padding: 100px">Contact Us for Emergency</p></center>
+		<div class="csec"></div>
+		<div class="back-contact">
+			<div class="cc">
+			<form action="mailto:breedinggroundbd@gmail.com" method="post" enctype="text/plain">
+				<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
+				<center>
+				<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
+				</center>
+				<label>Email <span class="imp">*</span></label><br>
+				<input type="email" name="mail" style="width: 100%" required="required"><br>
+				<label>Phone <span class="imp"></span></label><br>
+				<input type="number" name="number" style="width: 100%" ><br>
+				<label>Message <span class="imp">*</span></label><br>
+				<input type="text" name="message" style="width: 100%" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="title2" id="feedBACK">
+		<center><p style="font-size: 30px; padding:0px;">Request Consultation</p>
+		<div class="shortdesc2">
+			<p>Please share your valuable Words to us</p></center>
+		</div>
+	</div>
+<!-- FEEDBACK -->
+	<div class="feedbox">
+		<div class="feed">
+			<form action="mailto:breedinggroundbd@gmail.com" method="post" enctype="text/plain">
+				<label>Your Name</label><br>
+				<input type="text" name="" class="fname" required="required"><br>
+				<label>Email</label><br>
+				<input type="email" name="mail" required="required"><br>
+				<label>Prefarable time and date</label><br>
+				<textarea name="addtional" required="required"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+		</div>
+	</div>
+
+
+<!-- Sliding Information -->
+	<marquee style="background: linear-gradient(to right, #FA4B37, #DF2771); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">“সেবা সমূহ: নারী ও শিশু নির্যাতন সংক্রান্ত, লিগ্যাল নোটিশ, পারিবারিক আইন, তালাক সংক্রান্ত, কাস্টডি ও গার্ডিয়ানশিপ দাবি, জামিন, চুক্তি আইন, দেওয়ানি মোকদ্দমা, জমি জমা সংক্রান্ত, ফৌজদারী মামলা, সাংবিধানিক অধিকার সংক্রান্ত রিট এর মোশন ও শুনানী, আপিল, রিভিউ, রিভিশন, কোম্পানি ও ব্যবসা নিবন্ধন, লাইসেন্সিং, ট্রেডমার্ক, ডিজাইন, শ্রম আইন ও অধিকার, মানবাধিকার ইস্যু, ব্যাংকিং ও ফাইন্যান্সিয়াল ম্যাটার ইত্যাদি বিষয়ে বিশেষজ্ঞ আইনজীবী পরামর্শ প্রদান করেন। ফোন - ল্যান্ডলাইন - ০২৮৪১০১৩৪ (অফিস চলাকালীন); ০১৭১৪৪০৪০৫০ (ফোন ও হোয়াটস্যাপ); ০১৭০৭২৪১৬১১ (ফিমেল/মহিলা ডেস্ক)”</div></marquee>
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container"id="contact_section">
+			<div class="left-col">
+				<img src="images/icon/logo.png" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					
+					<a href="https://www.instagram.com/soumo.khan/?igshid=YmMyMTA2M2Y%3D&fbclid=IwAR3m-XCD938hD97tXzQUHhzZrHMJQcNXTnoq2lhAEinYw1X20cDtfj9P7rs"><img src="images/icon\insta.png"></a>
+					<a href="https://www.youtube.com/channel/UCC2qNJrePWN_uK5zGrseZ_w"><img src="images/icon\ytube.png"></a>
+					<a href="https://www.facebook.com/profile.php?id=100061079247128"><img src="images/icon/fb.png"></a>
+					
+				</div><br><br>
+				<p class="rights-text">Copyright © 2022 Created By BRAC Law , Barrister Alam All Rights Reserved.</p>
+				<br><p><img src="images/icon/location.png"> BRAC Law <br>Address 2nd Floor, House 429, Road 7 Baridhara DOHS, Dhaka AND Room B12, 1/2 Rajar Deuri,Court H. St., Kotwali, Dhaka</p><br>
+				<p><img src="images/icon/phone.png"> +1 (647) 234-9604<br><img src="images/icon/mail.png">&nbsp; breedinggroundbd@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

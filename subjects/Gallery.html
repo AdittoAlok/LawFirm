@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="../images/icon/favicon.png">
+	<title>Breeding Ground</title>
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+	<script type="text/javascript" src="../script.js"></script>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+	<header>
+		<div class="nav" id="nav">
+			<div id="learned-logo">
+			<a href="../index.html"><img src="../images/icon/logo.png" style="width: 120px;"></a></div>
+			<div class="switch-tab" id="switch-tab" onclick="switchTAB()"><img src="../images/icon/menu.png"></div>
+			<ul id="list-switch">
+				<li><a href="../index.html"><img src="../images/courses/d1.png" class="icon">Home</a></li>
+				
+			</ul>
+			<div class="search" id="search-switch">
+				<input type="text" placeholder="Search" class="srch"><button id="srchbtn"><img src="../images/icon/search.png"></button>
+			</div>
+		</div>
+	</header>
+
+	<center><p style="font-size: 50px;padding-top: 200px;padding-right: 0px; padding-left: 0px; padding-bottom: 50px; color: rgb(0, 0, 0);">Recognitions & Awards</p>
+
+
+		<p style="font-size: 30px;padding-top: 50px;padding-right: 0px; padding-left: 0px; padding-bottom: 50px; color: rgb(0, 0, 0);">Bangladesh Law Partners BDLP  and its lawyers have been recognised by national and international legal bodies, associations and press.
+		
+		Below are some of our showcase recognitions, awards and memberships.</p></center>
+
+	<!-- Sliding Information -->
+<div>
+	<div class="slideshow-container">
+
+			
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 3</div>
+			<img src="../images/extra/123.png" style="width:100%">
+			<div class="text"></div>
+		  </div>
+			<div class="mySlides fade">
+			  <div class="numbertext">2 / 3</div>
+			  <img src="../images/extra/1234.png" style="width:100%">
+			  <div class="text"></div>
+			</div>
+			
+			
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 3</div>
+				<img src="../images/extra/12345.png" style="width:100%">
+				<div class="text"></div>
+			  </div>
+			</div>
+			<br>
+			
+			<div style="text-align:center">
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			</div>
+			
+			<script>
+			let slideIndex = 0;
+			showSlides();
+			
+			function showSlides() {
+			  let i;
+			  let slides = document.getElementsByClassName("mySlides");
+			  let dots = document.getElementsByClassName("dot");
+			  for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			  }
+			  slideIndex++;
+			  if (slideIndex > slides.length) {slideIndex = 1}    
+			  for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			  setTimeout(showSlides, 4000); // Change image every 2 seconds
+			}
+			</script>
+	
+	</div>
+	
+<!-- Sliding Information -->
+<div>
+	<div class="slideshow-container">
+
+			
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 3</div>
+			<img src="../images/extra/123.png" style="width:100%">
+			<div class="text"></div>
+		  </div>
+			<div class="mySlides fade">
+			  <div class="numbertext">2 / 3</div>
+			  <img src="../images/extra/1234.png" style="width:100%">
+			  <div class="text"></div>
+			</div>
+			
+			
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 3</div>
+				<img src="../images/extra/12345.png" style="width:100%">
+				<div class="text"></div>
+			  </div>
+			</div>
+			<br>
+			
+			<div style="text-align:center">
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			</div>
+			
+			<script>
+			let SI = 0;
+			showSlides();
+			
+			function showSlides() {
+			  let i;
+			  let slides = document.getElementsByClassName("mySlides");
+			  let dots = document.getElementsByClassName("dot");
+			  for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			  }
+			  SI++;
+			  if (SI > slides.length) {SI = 1}    
+			  for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[SI-1].style.display = "block";  
+			  dots[SI-1].className += " active";
+			  setTimeout(showSlides, 4000); // Change image every 2 seconds
+			}
+			</script>
+	
+	</div>	
+
+<!-- FOOTER -->
+<footer>
+	<div class="footer-container">
+		<div class="left-col">
+			<img src="../images/icon/logo.png" style="width: 200px;">
+			<div class="logo"></div>
+			<div class="social-media">
+				<a href="#"><img src="../images/icon\fb.png"></a>
+				<a href="#"><img src="../images/icon\insta.png"></a>
+				<a href="#"><img src="../images/icon\tt.png"></a>
+				<a href="#"><img src="../images/icon\ytube.png"></a>
+				<a href="#"><img src="../images/icon\linkedin.png"></a>
+			</div><br><br>
+			<p class="rights-text">Copyright © 2022 Created By Breeding Ground, Soumo Khan All Rights Reserved.</p>
+			<br><p><img src="../images/icon/location.png"> Breeding Ground<br>750 st Antoine Street Windsor, ON, Canada, N9C 3H6</p><br>
+			<p><img src="../images/icon/phone.png">  +1 (647) 234-9604<br><img src="../images/icon/mail.png">&nbsp;  braclaw@gmail.com</p>
+		</div>
+		<div class="right-col">
+			<h1 style="color: #fff">Our Newsletter</h1>
+			<div class="border"></div><br>
+			<p>Enter Your Email to get our News and updates.</p>
+			<form class="newsletter-form">
+				<input class="txtb" type="email" placeholder="Enter Your Email">
+				<input class="btn" type="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
